@@ -76,7 +76,7 @@ class HeroListCreateViewTests(APITestCase):
 
     @patch('superheroes_api.views.requests.get')
     def test_create_hero_invalid_stats(self, mock_get):
-        """Test error handling when powerstats contain invalid values."""
+        """Test error handling when api response contains invalid fields and values."""
         mock_get.return_value.status_code = 200
         mock_get.return_value.json.return_value = {
             'response': 'success',
