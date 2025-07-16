@@ -110,7 +110,7 @@ Then you'll need to fill the .env file that contains environmental variables cru
 | DJANGO_PORT                 | Port for Django (8000 by default)                                                                                            |
 |                             |                                                                                                                              |
 | DJANGO_CSRF_TRUSTED_ORIGINS | List of trusted CSRF sources for Django (comma separated, with protocol (‘https://’), can be similar to the previous item) |
-| DATABASE_ENGINE             | DB engine (postgresql_psycopg2 for PostgreSQL).                                                                              |
+| DATABASE_ENGINE             | DB engine (`postgresql_psycopg2` for PostgreSQL).                                                                              |
 | DATABASE_NAME               | DB name                                                                                                                      |
 | DATABASE_USERNAME           | Username for the DB                                                                                                          |
 | DATABASE_PASSWORD           | Password for the DB user                                                                                                     |
